@@ -1,0 +1,8 @@
+insert into INDUSTRY_TYPES values (1, 'Bank');
+insert into INDUSTRY_TYPES values (2, 'Building');
+insert into INDUSTRY_TYPES values (3, 'Data Communication');
+insert into INDUSTRY_TYPES values (4, 'Education');
+insert into INDUSTRY_TYPES values (5, 'Farm');
+insert into INDUSTRY_TYPES values (6, 'Health');
+insert into INDUSTRY_TYPES values (7, 'Mining');
+insert into INDUSTRY_TYPES values (8, 'Publishing');

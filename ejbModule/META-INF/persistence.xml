@@ -10,6 +10,7 @@
 		<class>repository.entity.Contact</class>
 		<class>repository.entity.User</class>
 		<class>repository.entity.Group</class>
+		<class>repository.entity.IndustryType</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 		<properties>
 			<property name="eclipselink.ddl-generation" value="create" />

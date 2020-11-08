@@ -37,8 +37,9 @@ public class CustomerRepositoryImpl implements CustomerRepository{
 
 	@Override
 	public List<Customer> findCustomerByIndustryType(IndustryType industryType) {
-		// TODO Auto-generated method stub
-		return null;
+		Query query = entityManager.createNamedQuery(Customer.GET_BY_INDUSTRY);
+		query.setParameter("industryTypeId", industryType.getIndustryTypeId());
+		return query.getResultList();
 	}
 
 	@Override
