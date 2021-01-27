@@ -12,7 +12,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/Assignment-common"/>
 	<classpathentry kind="lib" path="C:/Users/WUYU/eclipse-workspace/W1ExeStudent-common/lib/javaee-api-7.0.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/FIT5042">
 		<attributes>
@@ -20,5 +19,6 @@
 			<attribute name="owner.project.facets" value="jpt.jpa"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/EnterpriseAppDev-common"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
